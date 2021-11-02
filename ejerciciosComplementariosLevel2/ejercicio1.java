@@ -5,7 +5,7 @@
 
 import java.util.ArrayList;
 
-public class ejercicio1 {
+public class Ejercicio1 {
     public static void main(String[] args) {
         ArrayList<String> ciudades = new ArrayList<>();
         ciudades.add("#1 - Bariloche");

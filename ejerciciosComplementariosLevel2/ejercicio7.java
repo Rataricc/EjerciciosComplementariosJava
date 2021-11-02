@@ -11,7 +11,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ejercicio7 {
+public class Ejercicio7 {
     ArrayList lista = new ArrayList();
     int num1;
     int num2;
@@ -44,7 +44,7 @@ public class ejercicio7 {
     }
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        ejercicio7 numero = new ejercicio7();
+        Ejercicio7 numero = new Ejercicio7();
         int num1;
         int num2;
         boolean band = false;

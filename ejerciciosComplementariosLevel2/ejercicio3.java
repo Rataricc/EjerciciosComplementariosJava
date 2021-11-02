@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ejercicio3 {
+public class Ejercicio3 {
     public static void main(String[] args) {
         ArrayList<Integer> baraja = new ArrayList<>(20);
         baraja.add(2);

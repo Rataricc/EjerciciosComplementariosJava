@@ -7,7 +7,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ejercicio4 {
+public class Ejercicio4 {
     public static void main(String[] args) {
         ArrayList<String> nombres = new ArrayList<>(20);
         nombres.add("Belen");

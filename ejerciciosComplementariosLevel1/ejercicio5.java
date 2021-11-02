@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class ejercicio5 {
+public class Ejercicio5 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int num1,num2,sum = 0;

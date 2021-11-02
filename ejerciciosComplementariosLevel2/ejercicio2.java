@@ -7,7 +7,7 @@
 
 import java.util.ArrayList;
 
-public class ejercicio2 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         ArrayList<Integer> num = new ArrayList<>();
         num.add(21);

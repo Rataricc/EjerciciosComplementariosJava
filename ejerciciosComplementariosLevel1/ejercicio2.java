@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class ejercicio2 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         double num1, num2;

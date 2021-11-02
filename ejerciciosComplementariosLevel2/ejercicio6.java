@@ -14,10 +14,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class ejercicio6 {
+public class Ejercicio6 {
         String nombre,apellido;
         int dni,horasTrabajadas,valorPorHora;
-        public ejercicio6(String entNombre,
+        public Ejercicio6(String entNombre,
                           String entApellido,
                           int entDni,
                           int entHorasTrabajadas,
@@ -36,28 +36,28 @@ public class ejercicio6 {
             return "nombre: " + nombre + "apellido: " + apellido;
     }
     public static void main(String[] args) {
-        ejercicio6 empleado1 = new ejercicio6("Cristiano","Ronaldo",41456789,
+        Ejercicio6 empleado1 = new Ejercicio6("Cristiano","Ronaldo",41456789,
                 4,1500);
         System.out.println("Nombre: " + empleado1.nombre);
         System.out.println("Apellido: " + empleado1.apellido);
         System.out.println("DNI: " + empleado1.dni);
         System.out.println("Horas Trabajadas: " + empleado1.horasTrabajadas);
         System.out.println("Valor por Hora: $" + empleado1.valorPorHora + "\n");
-        ejercicio6 empleado2 = new ejercicio6("Lionel","Messi",40345652,6,
+        Ejercicio6 empleado2 = new Ejercicio6("Lionel","Messi",40345652,6,
                 3000);
         System.out.println("Nombre: " + empleado2.nombre);
         System.out.println("Apellido: " + empleado2.apellido);
         System.out.println("DNI: " + empleado2.dni);
         System.out.println("Horas Trabajadas: " + empleado2.horasTrabajadas);
         System.out.println("Valor por Hora: $" + empleado2.valorPorHora + "\n");
-        ejercicio6 empleado3 = new ejercicio6("Roberto Carlos", "Da Silva",38567941,
+        Ejercicio6 empleado3 = new Ejercicio6("Roberto Carlos", "Da Silva",38567941,
                 12,7000);
         System.out.println("Nombre: " + empleado3.nombre);
         System.out.println("Apellido: " + empleado3.apellido);
         System.out.println("DNI: " + empleado3.dni);
         System.out.println("Horas Trabajadas: " + empleado3.horasTrabajadas);
         System.out.println("Valor por Hora: $" + empleado3.valorPorHora + "\n");
-        Set<ejercicio6> empleado = new HashSet<>();
+        Set<Ejercicio6> empleado = new HashSet<>();
         empleado.add(empleado1);
         empleado.add(empleado2);
         empleado.add(empleado3);

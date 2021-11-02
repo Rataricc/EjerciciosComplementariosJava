@@ -6,7 +6,7 @@
 
 import java.util.ArrayList;
 
-public class ejercicio5 {
+public class Ejercicio5 {
     public static void main(String[] args) {
         ArrayList<Integer> horasTrabajadas = new ArrayList<>();
         horasTrabajadas.add(6);
